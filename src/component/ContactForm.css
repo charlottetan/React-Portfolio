@@ -1,0 +1,112 @@
+.contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.contactform__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.contactform__h3{
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: 'Megrim', cursive;
+    color: #c5979d;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contactform__input{
+    min-width: 30vw;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+    outline: 1px solid #484d6d;
+    color: #c5979d;
+}
+
+.contactform__input::placeholder,
+.contactform__textarea::placeholder{
+    letter-spacing: 2px;
+}
+
+.contactform__textarea{
+    margin-top: 20px;
+    padding:10px;
+    min-width: 30vw;
+    background: transparent;
+    border: none;
+    outline: 1px solid #484d6d;
+    color: #c5979d;
+    resize: none;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactform__btn{
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    min-width: 15vw;
+    outline: 1px solid #484d6d;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #c5979d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.contactform__btn:hover{
+    transition: all ease-in .5s;
+    background: #484d6d;
+}
+.contactform__errMsg{
+    font-weight: 400;
+    color: red;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    animation: scaleup 2.25s ease-in-out, fadein 2.25s ease-in-out 0s 1;
+}
+.contactform__sucessMsg{
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Megrim', cursive;
+    color: #c5979d;
+    text-align: center;
+    animation: fadein 2.25s ease-in-out, scaleup 2.25s ease-in-out 0s 1;
+}
+
+@keyframes scaleup {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
