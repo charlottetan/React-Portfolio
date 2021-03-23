@@ -109,7 +109,8 @@
 
 
 .contact{
-  height: 60vh;
+  height: 100%;
+  padding: 15px;
   background: #2b193d;
 }
 

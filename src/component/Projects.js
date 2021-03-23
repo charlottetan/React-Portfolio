@@ -10,7 +10,7 @@ import NetflixImage from '../images/netflixClone.JPG'
 import RockPaperSissorsImage from '../images/rps.png'
 import BookmartImage from '../images/bkR.PNG';
 import VintageCar from '../images/vintage-car.JPG'
-
+import SlackClone from '../images/slackClone.JPG';
 
 
 function Projects() {
@@ -61,6 +61,14 @@ function Projects() {
                     description="Dynamic and Responsive website, built with HTML, CSS and JS. "
                     link1="https://github.com/Aoyetibo557/creative-page"
                     link2="https://vintage-car.herokuapp.com/index.html"
+                />
+
+                <ProjectBox 
+                    image = {SlackClone}
+                    title="Slack Clone"
+                    description="Slack clone app built with reactJs and hosted on firebase, with google authentication."
+                    link1="https://github.com/Aoyetibo557/Slack_Clone"
+                    link2="https://slack-clone-c0e20.web.app/"
                 />
 
                 <ProjectBox 
