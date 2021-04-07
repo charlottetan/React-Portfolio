@@ -11,6 +11,9 @@ import RockPaperSissorsImage from '../images/rps.png'
 import BookmartImage from '../images/bkR.PNG';
 import VintageCar from '../images/vintage-car.JPG'
 import SlackClone from '../images/slackClone.JPG';
+import HuluClone from '../images/HuluClone.JPG';
+
+
 
 
 function Projects() {
@@ -34,7 +37,7 @@ function Projects() {
                 <ProjectBox 
                     image = {AmazonImage}
                     title="Amazon Clone"
-                    description="Amazon clone built with ReactJs and firebase. Used Firebase Authentication for user login and signup."
+                    description="Responsive Amazon clone built with ReactJs and firebase. Used Firebase Authentication for user login and signup."
                     link1="https://github.com/Aoyetibo557/React-Amazon-Clone"
                     link2="https://clone-9fd28.web.app/"
                 /> 
@@ -70,6 +73,14 @@ function Projects() {
                     link1="https://github.com/Aoyetibo557/Slack_Clone"
                     link2="https://slack-clone-c0e20.web.app/"
                 />
+
+                <ProjectBox 
+                    image = {HuluClone}
+                    title="Hulu Clone App"
+                    description="Responsive Web Clone app of the Hulu Streaming Service, using ReactJs, TMDB API and Firebase google authentication and hosting."
+                    link1="https://github.com/Aoyetibo557/Hulu_Clone"
+                    link2="https://hulu-clone-304e7.web.app/"
+                /> 
 
                 <ProjectBox 
                     image = {RockPaperSissorsImage}
